@@ -32,6 +32,8 @@ public class JdkDynamicAopProxyTest {
 		// 3. 创建代理(Proxy)
 		JdkDynamicAopProxy jdkDynamicAopProxy = new JdkDynamicAopProxy(advisedSupport);
 		HelloWorldService helloWorldServiceProxy = (HelloWorldService) jdkDynamicAopProxy.getProxy();
+		//如果是用JDK动态代理的话，那么拿到的proxy类是不能cast成target类的，因为只支持接口
+//		HelloWorldService helloWorldServiceProxy = (HelloWorldServiceImpl) jdkDynamicAopProxy.getProxy();
 
 		// 4. 基于AOP的调用
 		helloWorldServiceProxy.helloWorld();
