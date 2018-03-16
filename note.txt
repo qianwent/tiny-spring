@@ -1,0 +1,3 @@
+@Inject是javax里面的，一般情况下可以和@Autowired互换
+如果用@Inject的时候，需要注意一点，实战的时候碰到的问题，虽然很小，就是在import的时候，inject可能有多个package可选
+如果选错，那就无法注入了。。。
