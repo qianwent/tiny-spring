@@ -6,3 +6,5 @@ TODO
 写custom的annotation
 http://www.baeldung.com/spring-annotation-bean-pre-processor
 search custom spring annotation for more info
+
+https://moelholm.com/2016/10/15/spring-4-3-custom-annotations/
