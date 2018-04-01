@@ -1,10 +1,5 @@
-@Inject是javax里面的，一般情况下可以和@Autowired互换
-如果用@Inject的时候，需要注意一点，实战的时候碰到的问题，虽然很小，就是在import的时候，inject可能有多个package可选
-如果选错，那就无法注入了。。。
+Move this note to springmvc_maven prject.
 
-TODO
-写custom的annotation
-http://www.baeldung.com/spring-annotation-bean-pre-processor
-search custom spring annotation for more info
+This project is to demonstrate how spring works, so it's not relied on spring.
 
-https://moelholm.com/2016/10/15/spring-4-3-custom-annotations/
+If we want to test any spring related features, or even test custom annotations, refer to springmvc_maven prject.
